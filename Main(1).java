@@ -5,7 +5,7 @@ import java.io.IOException;
 public class Main {
     public static BufferedReader reader;
     public static void main(String[] args) throws IOException {
-        String path = "C:\\Users\\vaheg\\IdeaProjects\\CPU\\src\\commands.txt";
+        String path = "example.txt"; // ENTER YOUT FILE PATH 
         CPU cpu = new CPU();
 
         reader = new BufferedReader(new FileReader(path));
